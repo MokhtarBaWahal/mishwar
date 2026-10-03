@@ -1,0 +1,6 @@
+{
+  "name": "MISHWAR (مشوار) - Smart Ride-Hailing Platform",
+  "description": "منصة مشوار للنقل الذكي - سيارات ودراجات نارية في اليمن. تطبيق العميل، تطبيق السائق، ولوحة تحكم الإدارة مع نظام تسعير وتتبع مباشر.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

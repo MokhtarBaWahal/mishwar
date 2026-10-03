@@ -1,0 +1,27 @@
+{
+  "name": "mishwar-backend",
+  "version": "1.0.0",
+  "description": "MISHWAR Smart Ride-Hailing Platform Backend API",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "firebase-admin": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.0.0",
+    "esbuild": "^0.28.2"
+  }
+}

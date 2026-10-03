@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "../packages/shared_types/src/**/*.ts",
+    "../packages/shared_utils/src/**/*.ts"
+  ]
+}

@@ -1,0 +1,14 @@
+name: mishwar_shared
+description: Shared API client for the MISHWAR Flutter applications.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  dio: ^5.4.3+1
+  flutter:
+    sdk: flutter
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
